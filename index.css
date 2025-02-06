@@ -1,0 +1,98 @@
+*{
+    margin: 0 auto;
+    font-family: "Arial";
+}
+
+body{
+    color: rgb(255, 255, 255);
+    background-size: 500% 100%;
+    background: linear-gradient(to left, #202b69, #34336a, #157a9e, #1f1e64);
+    animation: mygradient 5s infinite alternate;
+}
+
+@keyframes mygradient {
+    0% {
+        background-position-x: 0%;
+    }
+    100% {
+        background-position-x: 100%;
+    }
+    
+}
+
+.me_introduction{
+    text-align: center;
+}
+
+.me_introduction h1{
+    text-align: center;
+    font-size: 6rem;
+    margin-top: 3rem;
+    text-shadow: 4px 4px 6px  #9584f3;
+}
+
+.me_introduction p{
+    font-size: 25px;
+    line-height: 1.5;
+}
+
+.me_introduction h2{
+    text-align: center;
+    font-size: 2.8rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.image_box{
+    margin-top: 6rem;
+    background-color:#202b69;
+    width: 32rem;
+    height: 32rem;
+    border-radius: 5000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 5px 10px 0 #9584f3, 0 7px 30px 3px rgb(207, 193, 223);
+}
+
+.image_box img{
+    max-width: 100%;
+    height: 30rem;
+}
+
+.main_text{
+    padding: 2rem 2rem 2rem 2rem;
+    max-width: 500px;
+    background-color: #1f1e64;
+    border-radius: 50px;
+    box-shadow: 2px 5px 10px 0 #9584f3, 0 7px 30px 3px rgb(207, 193, 223);
+}
+
+.informations_about_me{
+    max-width: 1100px;
+    padding: 2rem 2rem 2rem 2rem;
+    font-size: 30px;
+    background-color: #1f1e64;
+    margin-top: 5rem;
+    border-radius: 50px;
+    box-shadow: 5px 8px 14px  #9584f3, 0 7px 30px 3px rgb(207, 193, 223);
+    margin-bottom: 10rem;
+}
+
+.informations_about_me h3{
+    font-weight: 500;
+}
+
+.informations_about_me img{
+    max-height: 30rem;
+    max-width: 100%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+
+}
+
+.hobbies_img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
